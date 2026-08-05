@@ -47,7 +47,7 @@ export async function showGoalSettings(
 		| "set-visibility"
 		| "set-queue"
 		| "set-rpc";
-	const menu = defineMenu<undefined, Screen, Action, ExtensionCommandContext>({
+	const menu = defineMenu<undefined, Screen, Action>({
 		start: invalid ? "invalid" : (options.initialScreen ?? "settings"),
 		screens: {
 			settings: () => ({

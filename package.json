@@ -30,8 +30,8 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@narumitw/pi-tui-kit": "^0.46.0",
-		"typebox": "^1.3.9"
+		"@narumitw/pi-tui-kit": "file:vendor/pi-tui-kit",
+		"typebox": "^1.3.8"
 	},
 	"peerDependencies": {
 		"@earendil-works/pi-ai": "*",
@@ -40,13 +40,12 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.6",
-		"@earendil-works/pi-ai": "0.83.0",
-		"@earendil-works/pi-coding-agent": "0.83.0",
+		"@earendil-works/pi-ai": "0.82.1",
+		"@earendil-works/pi-coding-agent": "0.82.1",
 		"typescript": "7.0.2"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/narumiruna/pi-extensions",
-		"directory": "extensions/pi-goal"
+		"url": "https://github.com/JJGO/pi-goal.git"
 	}
 }

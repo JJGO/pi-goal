@@ -183,7 +183,7 @@ export async function showGoalManager(
 	let displayedQueueHead: ActiveGoal | undefined;
 	let displayedQueueFirst: ActiveGoal | undefined;
 	let displayedQueueLast: ActiveGoal | undefined;
-	const menu = defineMenu<undefined, GoalMenuScreen, GoalMenuAction, ExtensionCommandContext>({
+	const menu = defineMenu<undefined, GoalMenuScreen, GoalMenuAction>({
 		start: "main",
 		screens: {
 			main: () => {

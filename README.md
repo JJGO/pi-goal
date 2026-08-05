@@ -39,14 +39,22 @@ Goal mode uses Codex-like persistence instructions and sends guarded continuatio
 
 Requires Pi `0.80.6` or newer for the `agent_settled` lifecycle event.
 
+Install this standalone fork from GitHub:
+
+```bash
+pi install git:github.com/JJGO/pi-goal
+```
+
+The upstream npm release remains available as:
+
 ```bash
 pi install npm:@narumitw/pi-goal
 ```
 
-Try without installing permanently:
+Try the fork without installing permanently:
 
 ```bash
-pi -e npm:@narumitw/pi-goal
+pi -e git:github.com/JJGO/pi-goal
 ```
 
 Try this package locally from the repository root:
